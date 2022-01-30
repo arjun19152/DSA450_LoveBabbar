@@ -1,6 +1,6 @@
 public class Kth_Max_Min {
 
-    // Quick-Select Algorithm ===> O(n)
+    // Quick-Select Algorithm ===> O(n), Avg. case time complexity
 
     public static int quickSelect(int[] arr, int lo, int hi, int k){
 
