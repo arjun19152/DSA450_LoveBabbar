@@ -1,3 +1,4 @@
+// Algo to find maximum sum of a contiguous subarray of an Array
 public class KadanesAlgo {
 
     public static int solve(int arr[]){
