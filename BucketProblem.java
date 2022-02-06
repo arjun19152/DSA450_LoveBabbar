@@ -22,7 +22,7 @@ public class BucketProblem {
                 if(even!=0){
                     totalAns-=even;
                     even=0;
-            }else if(m==3){
+            }}else if(m==3){
                     if(odd!=0) {
                         totalAns -= odd;
                         odd = 0;
@@ -32,15 +32,16 @@ public class BucketProblem {
                 even=0;
                 odd=0;
             }
-        }
+
     }
+        
         return totalAns;
 }
 
 
     public static void main(String[] args) {
         List<Integer> queries=new ArrayList<Integer>();
-        queries.add(1);queries.add(2);queries.add(2);
+        queries.add(1);queries.add(2);queries.add(3);
         System.out.println(FilledBuckets(5,queries));
     }
 }
